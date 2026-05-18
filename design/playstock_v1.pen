@@ -15104,12 +15104,13 @@
             0,
             20
           ],
+          "justifyContent": "center",
           "children": [
             {
               "id": "byahh",
               "type": "ref",
               "ref": "h5S7J",
-              "x": 20,
+              "x": 22.5,
               "y": 0,
               "descendants": {
                 "qSaPO": {
@@ -15121,7 +15122,7 @@
               "id": "copRi",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 110,
+              "x": 112.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -15133,7 +15134,7 @@
               "id": "NVnGt",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 200,
+              "x": 202.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -15145,7 +15146,7 @@
               "id": "Q7LeWC",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 290,
+              "x": 292.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -15530,6 +15531,99 @@
             },
             {
               "type": "frame",
+              "id": "bwfYn",
+              "name": "Frame 26",
+              "width": "fill_container",
+              "layout": "vertical",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CSMbJ",
+                  "fill": "$text-secondary",
+                  "content": "마감까지",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 14
+                },
+                {
+                  "type": "frame",
+                  "id": "v4fgko",
+                  "name": "Frame 27",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zayGT",
+                      "fill": "$text-primary",
+                      "content": "23일 12 : 50 : 21",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 26,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qpHdc",
+                      "fill": "$text-secondary",
+                      "content": "2026.06.06",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 12
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DNVJJ",
+              "name": "saleProgress",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ry8wT",
+                  "fill": "$primary",
+                  "content": "66%",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 18,
+                  "fontWeight": "$weight-bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "LPc1J",
+                  "name": "spBarOuter",
+                  "width": "fill_container",
+                  "height": 8,
+                  "fill": "#e6e6e6ff",
+                  "cornerRadius": "$radius-full",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": "$radius-full",
+                      "id": "vdvGg",
+                      "fill": "$primary",
+                      "width": 218,
+                      "height": 8
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xlg3j",
+                  "fill": "$text-secondary",
+                  "content": "658 / 1,000 조각 판매됨",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 12
+                }
+              ]
+            },
+            {
+              "type": "frame",
               "id": "So1Ay",
               "name": "saleGrid1",
               "width": "fill_container",
@@ -15601,105 +15695,6 @@
             },
             {
               "type": "frame",
-              "id": "JKVEh",
-              "name": "Frame 29",
-              "width": "fill_container",
-              "layout": "vertical",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "bwfYn",
-                  "name": "Frame 26",
-                  "width": "fill_container",
-                  "justifyContent": "space_between",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "CSMbJ",
-                      "fill": "$text-secondary",
-                      "content": "마감까지",
-                      "fontFamily": "Pretendard Variable",
-                      "fontSize": 14
-                    },
-                    {
-                      "type": "frame",
-                      "id": "v4fgko",
-                      "name": "Frame 27",
-                      "layout": "vertical",
-                      "gap": 4,
-                      "alignItems": "end",
-                      "children": [
-                        {
-                          "type": "text",
-                          "id": "zayGT",
-                          "fill": "$text-primary",
-                          "content": "23일 12 : 50 : 21",
-                          "fontFamily": "Pretendard Variable",
-                          "fontSize": 20,
-                          "fontWeight": "600"
-                        },
-                        {
-                          "type": "text",
-                          "id": "qpHdc",
-                          "fill": "$text-secondary",
-                          "content": "2026.06.06",
-                          "fontFamily": "Pretendard Variable",
-                          "fontSize": 12
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "DNVJJ",
-                  "name": "saleProgress",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Ry8wT",
-                      "fill": "$primary",
-                      "content": "66%",
-                      "fontFamily": "Pretendard Variable",
-                      "fontSize": 18,
-                      "fontWeight": "$weight-bold"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "LPc1J",
-                      "name": "spBarOuter",
-                      "width": "fill_container",
-                      "height": 8,
-                      "fill": "#e6e6e6ff",
-                      "cornerRadius": "$radius-full",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": "$radius-full",
-                          "id": "vdvGg",
-                          "fill": "$primary",
-                          "width": 218,
-                          "height": 8
-                        }
-                      ]
-                    },
-                    {
-                      "type": "text",
-                      "id": "xlg3j",
-                      "fill": "$text-secondary",
-                      "content": "658 / 1,000 조각 판매됨",
-                      "fontFamily": "Pretendard Variable",
-                      "fontSize": 12
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
               "id": "NGfwk",
               "name": "Frame 28",
               "width": "fill_container",
@@ -15709,7 +15704,7 @@
                   "type": "frame",
                   "id": "RLH4u",
                   "name": "Frame 23",
-                  "gap": 5,
+                  "gap": 4,
                   "padding": [
                     4,
                     0
@@ -15725,7 +15720,7 @@
                       "iconFontName": "users-fill",
                       "iconFontFamily": "phosphor",
                       "weight": 400,
-                      "fill": "$primary"
+                      "fill": "$text-tertiary"
                     },
                     {
                       "type": "text",
@@ -15733,8 +15728,7 @@
                       "fill": "$text-secondary",
                       "content": "투자중",
                       "fontFamily": "Pretendard Variable",
-                      "fontSize": 14,
-                      "fontWeight": "500"
+                      "fontSize": 14
                     },
                     {
                       "type": "text",
@@ -15751,7 +15745,7 @@
                   "type": "frame",
                   "id": "hcC6S",
                   "name": "Frame 23",
-                  "gap": 5,
+                  "gap": 4,
                   "padding": [
                     4,
                     0
@@ -15766,7 +15760,7 @@
                       "height": 20,
                       "iconFontName": "currency-krw-bold",
                       "iconFontFamily": "phosphor",
-                      "fill": "$primary"
+                      "fill": "$text-tertiary"
                     },
                     {
                       "type": "text",
@@ -15774,8 +15768,7 @@
                       "fill": "$text-secondary",
                       "content": "평균 구매 금액",
                       "fontFamily": "Pretendard Variable",
-                      "fontSize": 14,
-                      "fontWeight": "500"
+                      "fontSize": 14
                     },
                     {
                       "type": "text",
@@ -15792,7 +15785,7 @@
                   "type": "frame",
                   "id": "gLhiz",
                   "name": "Frame 23",
-                  "gap": 5,
+                  "gap": 4,
                   "padding": [
                     4,
                     0
@@ -15807,7 +15800,7 @@
                       "height": 20,
                       "iconFontName": "eject-fill",
                       "iconFontFamily": "phosphor",
-                      "fill": "$primary"
+                      "fill": "$text-tertiary"
                     },
                     {
                       "type": "text",
@@ -15815,8 +15808,7 @@
                       "fill": "$text-secondary",
                       "content": "평균 구매 개수",
                       "fontFamily": "Pretendard Variable",
-                      "fontSize": 14,
-                      "fontWeight": "500"
+                      "fontSize": 14
                     },
                     {
                       "type": "text",
@@ -17607,12 +17599,13 @@
             0,
             20
           ],
+          "justifyContent": "center",
           "children": [
             {
               "id": "m2LsG",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 20,
+              "x": 22.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -17624,7 +17617,7 @@
               "id": "QbIj4",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 110,
+              "x": 112.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -17636,7 +17629,7 @@
               "id": "b8zm6A",
               "type": "ref",
               "ref": "h5S7J",
-              "x": 200,
+              "x": 202.5,
               "y": 0,
               "descendants": {
                 "qSaPO": {
@@ -17648,7 +17641,7 @@
               "id": "iMPPf",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 290,
+              "x": 292.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -17692,29 +17685,84 @@
               },
               "layout": "vertical",
               "gap": 12,
-              "padding": [
-                20,
-                16
-              ],
+              "padding": 20,
               "children": [
                 {
                   "type": "text",
                   "id": "c1qns",
                   "fill": "$text-primary",
-                  "content": "예상 월 수익",
+                  "content": "최근 6개월 평균 수익",
                   "fontFamily": "Pretendard Variable",
                   "fontSize": 14,
                   "fontWeight": "$weight-bold"
                 },
                 {
-                  "type": "text",
-                  "id": "OQfNq",
-                  "name": "수익 수치",
-                  "fill": "$text-primary",
-                  "content": "1,500 ~ 2,500만원",
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 24,
-                  "fontWeight": "700"
+                  "type": "frame",
+                  "id": "HwnlP",
+                  "name": "Frame 37",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v9elp1",
+                      "name": "Frame 36",
+                      "gap": 4,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OQfNq",
+                          "name": "수익 수치",
+                          "fill": "$text-primary",
+                          "content": "1,980",
+                          "fontFamily": "Pretendard Variable",
+                          "fontSize": 24,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z5UF5",
+                          "name": "수익 수치",
+                          "fill": "$text-secondary",
+                          "content": "만원",
+                          "fontFamily": "Pretendard Variable",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pfv6p",
+                      "name": "Frame 38",
+                      "fill": "#fffbf2ff",
+                      "cornerRadius": 4,
+                      "padding": [
+                        4,
+                        6
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kCER2",
+                          "name": "YouTube 수익 레이블",
+                          "fill": "#ff791f",
+                          "textGrowth": "fixed-width",
+                          "width": "fit_content(59)",
+                          "content": "안정 배당형",
+                          "textAlign": "center",
+                          "fontFamily": "Pretendard Variable",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
                 },
                 {
                   "type": "frame",
@@ -17789,10 +17837,9 @@
                               "id": "N0ua9",
                               "name": "YouTube 수익 레이블",
                               "fill": "$text-secondary",
-                              "content": "YouTube 플랫폼 내 수익",
+                              "content": "플랫폼 수익",
                               "fontFamily": "Pretendard Variable",
-                              "fontSize": 13,
-                              "fontWeight": "500"
+                              "fontSize": 14
                             }
                           ]
                         },
@@ -17803,8 +17850,8 @@
                           "fill": "$text-primary",
                           "content": "1,050 ~ 1,750만원",
                           "fontFamily": "Pretendard Variable",
-                          "fontSize": 13,
-                          "fontWeight": "600"
+                          "fontSize": 14,
+                          "fontWeight": "500"
                         }
                       ]
                     },
@@ -17837,8 +17884,7 @@
                               "fill": "$text-secondary",
                               "content": "그 외 수익",
                               "fontFamily": "Pretendard Variable",
-                              "fontSize": 13,
-                              "fontWeight": "500"
+                              "fontSize": 14
                             }
                           ]
                         },
@@ -17849,8 +17895,8 @@
                           "fill": "$text-primary",
                           "content": "450 ~ 750만원",
                           "fontFamily": "Pretendard Variable",
-                          "fontSize": 13,
-                          "fontWeight": "600"
+                          "fontSize": 14,
+                          "fontWeight": "500"
                         }
                       ]
                     }
@@ -17861,17 +17907,54 @@
                   "id": "AE6Vm",
                   "fill": "$border",
                   "width": "fill_container",
-                  "height": "fill_container"
+                  "height": 1
                 },
                 {
-                  "type": "text",
-                  "id": "VlZtR",
-                  "name": "수익 안내",
-                  "fill": "$primary",
-                  "content": "최대 ~ 24% 수익이 예상돼요",
-                  "fontFamily": "Pretendard Variable",
-                  "fontSize": 12,
-                  "fontWeight": "500"
+                  "type": "frame",
+                  "id": "PuR34",
+                  "name": "Frame 34",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "WZaWA",
+                      "name": "수익 안내",
+                      "fill": "$text-secondary",
+                      "content": "예상 연 수익률",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wNFAF",
+                      "name": "Frame 35",
+                      "layout": "vertical",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gKGgc",
+                          "name": "수익 안내",
+                          "fill": "$color-primary",
+                          "content": "8.5%",
+                          "fontFamily": "Pretendard Variable",
+                          "fontSize": 18,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H4LSZp",
+                          "name": "수익 안내",
+                          "fill": "$text-secondary",
+                          "content": "(1조각당 월 350원)",
+                          "fontFamily": "Pretendard Variable",
+                          "fontSize": 12
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
@@ -18333,12 +18416,13 @@
             0,
             20
           ],
+          "justifyContent": "center",
           "children": [
             {
               "id": "tNOlz",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 20,
+              "x": 22.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -18350,7 +18434,7 @@
               "id": "ay8j3",
               "type": "ref",
               "ref": "h5S7J",
-              "x": 110,
+              "x": 112.5,
               "y": 0,
               "descendants": {
                 "qSaPO": {
@@ -18362,7 +18446,7 @@
               "id": "F0YXMI",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 200,
+              "x": 202.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -18374,7 +18458,7 @@
               "id": "Y1IU84",
               "type": "ref",
               "ref": "Kc73d",
-              "x": 290,
+              "x": 292.5,
               "y": 0,
               "descendants": {
                 "VL9kZ": {
@@ -18838,7 +18922,7 @@
                           "textAlign": "center",
                           "fontFamily": "Pretendard Variable",
                           "fontSize": 14,
-                          "fontWeight": "600"
+                          "fontWeight": "500"
                         },
                         {
                           "type": "text",
@@ -18949,7 +19033,7 @@
                           "textAlign": "center",
                           "fontFamily": "Pretendard Variable",
                           "fontSize": 14,
-                          "fontWeight": "600"
+                          "fontWeight": "500"
                         },
                         {
                           "type": "text",
@@ -19059,7 +19143,7 @@
                           "textAlign": "center",
                           "fontFamily": "Pretendard Variable",
                           "fontSize": 14,
-                          "fontWeight": "600"
+                          "fontWeight": "500"
                         },
                         {
                           "type": "text",
@@ -19239,6 +19323,294 @@
                   "content": "조각 구매하기"
                 }
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Hu71s",
+      "x": 3965,
+      "y": -449,
+      "name": "예상 월 수익 카드",
+      "width": "fill_container(335)",
+      "fill": "#ffffffff",
+      "cornerRadius": 12,
+      "effect": {
+        "type": "shadow",
+        "shadowType": "outer",
+        "color": "#00000026",
+        "blur": 6
+      },
+      "layout": "vertical",
+      "gap": 12,
+      "padding": [
+        20,
+        16
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "ourSO",
+          "fill": "$text-primary",
+          "content": "최근 6개월 평균 수익",
+          "fontFamily": "Pretendard Variable",
+          "fontSize": 14,
+          "fontWeight": "$weight-bold"
+        },
+        {
+          "type": "frame",
+          "id": "X8xI6",
+          "name": "Frame 37",
+          "width": "fill_container",
+          "gap": 6,
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "eV3Pj",
+              "name": "Frame 36",
+              "gap": 4,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I1VAO",
+                  "name": "수익 수치",
+                  "fill": "$text-primary",
+                  "content": "1,980",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 24,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "UvpsL",
+                  "name": "수익 수치",
+                  "fill": "$text-secondary",
+                  "content": "만원",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R8kXN0",
+              "name": "Frame 38",
+              "fill": "#fff2f2ff",
+              "cornerRadius": 4,
+              "padding": [
+                4,
+                6
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tEatJ",
+                  "name": "YouTube 수익 레이블",
+                  "fill": "$primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fit_content(59)",
+                  "content": "공격 성장형",
+                  "textAlign": "center",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GNk81",
+          "name": "spBarOuter",
+          "width": "fill_container",
+          "height": 20,
+          "fill": "#e6e6e6ff",
+          "cornerRadius": 2,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": [
+                2,
+                0,
+                0,
+                2
+              ],
+              "id": "PRTr4",
+              "fill": "#ff8585ff",
+              "width": 218,
+              "height": 20
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": [
+                0,
+                2,
+                2,
+                0
+              ],
+              "id": "X5FEV",
+              "fill": "#ffbcbcff",
+              "width": 27,
+              "height": 20
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J48G7",
+          "name": "수익 항목 요약",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "frame",
+              "id": "WMhuH",
+              "name": "YouTube 수익 행",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gHoBm",
+                  "name": "Frame 32",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "NaRDW",
+                      "fill": "#ff8585",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "zuo4A",
+                      "name": "YouTube 수익 레이블",
+                      "fill": "$text-secondary",
+                      "content": "YouTube 플랫폼 내 수익",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "j4H6d",
+                  "name": "YouTube 수익 값",
+                  "fill": "$text-primary",
+                  "content": "1,050 ~ 1,750만원",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DEZ8V",
+              "name": "플랫폼 밖 수익 행",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LNssp",
+                  "name": "Frame 33",
+                  "gap": 4,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 2,
+                      "id": "gd57w",
+                      "fill": "#ffbcbc",
+                      "width": 8,
+                      "height": 8
+                    },
+                    {
+                      "type": "text",
+                      "id": "dtkxx",
+                      "name": "플랫폼 밖 수익 레이블",
+                      "fill": "$text-secondary",
+                      "content": "그 외 수익",
+                      "fontFamily": "Pretendard Variable",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "N84Ga",
+                  "name": "플랫폼 밖 수익 값",
+                  "fill": "$text-primary",
+                  "content": "450 ~ 750만원",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "aUpkT",
+          "fill": "$border",
+          "width": "fill_container",
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "fWuj9",
+          "name": "Frame 34",
+          "width": "fill_container",
+          "layout": "vertical",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ql1Nr",
+              "name": "Frame 35",
+              "layout": "vertical",
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "n5YBJ2",
+                  "name": "수익 안내",
+                  "fill": "$color-primary",
+                  "content": "예상 연 수익률 8.5%",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "Z78zMI",
+                  "name": "수익 안내",
+                  "fill": "$text-secondary",
+                  "content": "(1조각당 월 350원)",
+                  "fontFamily": "Pretendard Variable",
+                  "fontSize": 12,
+                  "fontWeight": "500"
+                }
+              ]
             }
           ]
         }
